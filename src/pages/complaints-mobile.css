@@ -1,0 +1,144 @@
+@media (max-width: 1180px) {
+  .complaints-hero-shell,
+  .complaints-intake-header,
+  .complaints-intake-top,
+  .complaints-subsection-head-wide,
+  .complaints-success-banner,
+  .complaints-review-landscape {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 900px) {
+  .complaints-page {
+    padding: 16px 0 64px;
+  }
+
+  .complaints-hero-shell,
+  .complaints-intake-card,
+  .complaints-guidance-card,
+  .complaints-modal {
+    padding: 24px;
+  }
+
+  .complaints-hero-image-frame,
+  .complaints-hero-image-frame img {
+    min-height: 300px;
+  }
+
+  .complaints-selector-grid,
+  .complaints-form-grid,
+  .complaints-reference-grid,
+  .complaints-review-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .complaints-form-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .complaints-step-panel,
+  .complaints-success-banner {
+    padding: 24px;
+  }
+}
+
+@media (max-width: 640px) {
+  .complaints-page {
+    padding-top: 12px;
+  }
+
+  .complaints-title {
+    max-width: none;
+    font-size: clamp(2rem, 9vw, 2.9rem);
+  }
+
+  .complaints-description,
+  .complaints-intake-header p,
+  .complaints-subsection-head p,
+  .complaints-guidance-head p,
+  .complaints-guidance-copy span,
+  .complaints-route-panel-head p,
+  .complaints-route-note span,
+  .complaints-hero-point-copy span,
+  .complaints-form-callout span,
+  .complaints-modal-header p,
+  .complaints-hero-side-note li {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .complaints-hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .complaints-primary-action,
+  .complaints-secondary-action,
+  .complaints-primary-button,
+  .complaints-status-launch,
+  .complaints-modal-button,
+  .complaints-secondary-modal-button,
+  .complaints-upload {
+    width: 100%;
+  }
+
+  .complaints-upload {
+    justify-content: center;
+  }
+
+  .complaints-hero-image-frame,
+  .complaints-hero-image-frame img {
+    min-height: 250px;
+  }
+
+  .complaints-hero-overlay-card,
+  .complaints-hero-side-note,
+  .complaints-route-panel,
+  .complaints-hero-point-card,
+  .complaints-reference-card,
+  .complaints-step-panel,
+  .complaints-success-banner,
+  .complaints-review-item {
+    padding: 16px;
+  }
+
+  .complaints-reference-footer {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .complaints-review-actions {
+    flex-direction: column;
+    justify-content: stretch;
+  }
+
+  .complaints-review-scroll {
+    padding-right: 0;
+  }
+
+  .complaints-review-side {
+    grid-template-rows: auto auto auto auto;
+  }
+
+  .complaints-reference-footer-text,
+  .complaints-reference-pill {
+    white-space: normal;
+  }
+
+  .complaints-reference-pill {
+    width: 100%;
+  }
+
+  .complaints-step-actions {
+    justify-content: stretch;
+  }
+
+  .complaints-file-preview {
+    width: 100%;
+  }
+
+  .complaints-modal-backdrop {
+    padding: 12px;
+  }
+}
